@@ -10,8 +10,8 @@ body{ font-family:"微软雅黑"; font-size:0.24rem; background: #001431; max-wi
 .clearfix{ *zoom:1;}
 .clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
 
-#header{ width: 6.4rem; height: 2.61rem;}
-.shangbu-tou{width:6.4rem; height: 0.6rem; 
+#header{ width:100%; height: 2.61rem;}
+.shangbu-tou{width:100%; height: 0.6rem; 
 background: url(../img/tou-bg.png) no-repeat top; 
 font-size: 0.3rem; line-height: 0.6rem; font-weight: bold; color: #fffc00; text-align: center;}
 .shangbu-movie{ width: 6.16rem;  margin: 0.07rem  auto 0.17rem; border: 0.02rem solid #0b2a56; border-radius: 0.08rem; box-shadow: 0 0 0.03rem 0.03rem #0a1e3b;}
