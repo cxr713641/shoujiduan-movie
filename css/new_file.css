@@ -6,7 +6,7 @@ li{ list-style:none;}
 a{ text-decoration:none;}
 img{ border:0 none; vertical-align:top;}
 html{ font-size: 625%;}
-body{ font-family:"微软雅黑"; font-size:0.24rem; background: #001431; max-width:640px; min-width: 320px; margin:0 auto;}
+body{ font-family:"微软雅黑"; font-size:0.24rem; background: #001431; max-width:6.4rem; min-width: 3.2rem; margin:0 auto;}
 .clearfix{ *zoom:1;}
 .clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0;}
 
