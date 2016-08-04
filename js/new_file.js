@@ -1,11 +1,14 @@
-function fontAuto(width){
-	var srceenWidth=document.documentElement.clientWidth;
-	if(screenWith>=width){
-		document.documentElement.style.fonSize="625%";
+function fontAuto(width){//width表示效果图的宽度
+	var screenWidth=document.documentElement.clientWidth;//屏幕的宽度
+	//document.documentElement表示html标签
+	if(screenWidth>=width)//当设备的宽度大于等于效果图的宽度
+	{
+		document.documentElement.style.fontSize="625%";
 	}
-	else{
-		document.documentElement.Style.fontSize=(625*screenWidth/width)+"%";
+	else{//当设备的宽度小于效果图的宽度
+		document.documentElement.style.fontSize=(625*screenWidth/width)+"%";
 	}
+	
 }
 
 fontAuto(640);//网页加载的时候触发
